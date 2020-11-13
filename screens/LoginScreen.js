@@ -10,13 +10,13 @@ import {
 import FormInput from '../components/FormInput';
 import FormButton from '../components/FormButton';
 import SocialButton from '../components/SocialButton';
-//import {AuthContext} from '../navigation/AuthStack';
+import {AuthContext} from '../navigation/AuthStack';
 
 const LoginScreen = ({navigation}) => {
    const [email, setEmail] = useState();
    const [password, setPassword] = useState();
 
-//   const {login, googleLogin, fbLogin} = useContext(AuthContext);
+//    const {login, googleLogin, fbLogin} = useContext(AuthStack);
 
   return (
     <View style={styles.container}>
